@@ -1,0 +1,20 @@
+---
+title: An `mtcars` analysis
+author: David Benkeser
+output: html_document
+---
+
+
+```{r, load-data, echo = FALSE}
+data(mtcars)
+```
+
+## Intro 
+
+Wow, we sure love the `mtcars` data. It has `r nrow(mtcars)` rows and `r ncol(mtcars)` columns. 
+
+I made a fancy plot here too!
+
+```{r, fancy-plot}
+plot(mpg ~ cyl, data = mtcars)
+```
