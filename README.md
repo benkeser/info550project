@@ -1,7 +1,3 @@
----
-output: github_document
----
-
 ## My project
 
 For my project, I will analyze the `mtcars` data, like always. 
